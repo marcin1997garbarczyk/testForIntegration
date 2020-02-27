@@ -22,6 +22,14 @@ body{
 	left: 10%;
 	top: 15%;
 }
+
+#headerDiv{
+	position: absolute;
+	width: 45%;
+	height:7%;
+	left: 10%;
+	top: 5%;
+}
 #url_input{
 	width: 100%
 }
@@ -44,10 +52,10 @@ body{
 }
 #buttons{
 	position: absolute;
-	width: 30%;
-	height:35%;
-	left: 60%;
-	top: 70%;
+    width: 30%;
+    height: 35%;
+    left: 17%;
+    top: 85%;
 }
 .btn{
 	width:100%;
