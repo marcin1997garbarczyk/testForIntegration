@@ -1,0 +1,68 @@
+#page{
+	position: absolute;
+	width: 99%;
+	height: 98%;
+}
+body{
+	background-color: #363636;
+	color: white;
+}
+#content{
+	position: absolute;
+	width: 70%;
+	height: 90%;
+	background-color: 	#262626;
+	left: 15%;
+	top: 10%
+}
+#url{
+	position: absolute;
+	width: 45%;
+	height:7%;
+	left: 10%;
+	top: 15%;
+}
+#url_input{
+	width: 100%
+}
+#email{
+	position: absolute;
+	width: 35%;
+	height: 12%;
+	left: 10%;
+	top: 25%;
+}
+#email_input{
+	width: 100%
+}
+#message{
+	position: absolute;
+	width: 45%;
+	height:35%;
+	left: 10%;
+	top: 50%;
+}
+#buttons{
+	position: absolute;
+	width: 30%;
+	height:35%;
+	left: 60%;
+	top: 70%;
+}
+.btn{
+	width:100%;
+	margin-bottom:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
