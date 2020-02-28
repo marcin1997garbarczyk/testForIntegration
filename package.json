@@ -1,0 +1,23 @@
+{
+  "name": "testforintegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin1997garbarczyk/testForIntegration.git"
+  },
+  "author": "magar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcin1997garbarczyk/testForIntegration/issues"
+  },
+  "homepage": "https://github.com/marcin1997garbarczyk/testForIntegration#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
