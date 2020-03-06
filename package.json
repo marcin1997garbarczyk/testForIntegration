@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/marcin1997garbarczyk/testForIntegration#readme",
   "dependencies": {
+    "@azure/cosmos": "^3.6.2",
     "express": "^4.17.1"
   }
 }
