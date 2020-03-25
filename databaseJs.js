@@ -17,7 +17,7 @@
 
   connection.on('connect', function(err) {
     if(err) {
-      console.log('Error: ', err)
+      console.log('Errorr: ', err)
     } else {
       console.log('@@@MAGAR Connection success');
       executeStatement();
