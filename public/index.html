@@ -10,22 +10,24 @@
 				<div id="headerDiv">
 					<h1>It's my website from GIT BROO</h1>
 				</div>
-				<div id="url">
-					<label for="email_label">Link: </label>
-					<input type="text" class="form-control" id="url_input" placeholder="URL">
-				</div>
-				<div id="email">
-					<label for="email_label">Email address</label>
-					<input type="email" class="form-control" id="email_input" placeholder="name@example.com">
-				</div>
-				<div id="message">
-					<label>Here should be your message</label>
-					<textarea class="form-control" id="message_textarea" rows="8" placeholder="message"></textarea>
-				</div>
-				<div id="buttons">
-					<button type="button" class="btn btn-success">Save</button><br>
-					<button type="button" class="btn btn-info">Send</button>
-				</div>
+				<form method="POST">
+					<div id="url">
+						<label for="email_label">Link: </label>
+						<input type="text" class="form-control" id="url_input" placeholder="URL" name="url_input">
+					</div>
+					<div id="email">
+						<label for="email_label">Email address</label>
+						<input type="email" class="form-control" id="email_input" placeholder="name@example.com" name="email_input">
+					</div>
+					<div id="message">
+						<label>Here should be your message</label>
+						<textarea class="form-control" id="message_textarea" rows="8" placeholder="message" name="message_textarea"></textarea>
+					</div>
+					<div id="buttons">
+						<button type="button" class="btn btn-success" >Save</button><br>
+						<button type="button" class="btn btn-info">Send</button>
+					</div>
+				</form>
 			</div>
 		</div>
 		

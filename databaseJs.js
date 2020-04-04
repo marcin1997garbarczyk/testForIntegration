@@ -17,7 +17,7 @@
 
   connection.on('connect', function(err) {
     if(err) {
-      console.log('Errorr: ', err)
+      console.log('Error: ', err)
     } else {
       console.log('@@@MAGAR Connection success');
       executeStatement();
@@ -43,3 +43,4 @@
 
     connection.execSql(request);
   }
+  module.exports = Request; //EXPORT MODULU DO RESZTY PLIKÓW
