@@ -8,6 +8,7 @@ console.log('@@@MAGAR'+JSON.stringify(process.env));
 app.use(express.static(__dirname + '/public')); //Serves resources from public folder
 app.use(express.urlencoded());
 app.post('/*',function(req,res,next){
+  console.log('@@@@@@@MAGAR IM HERE IN REQUEST');
 	let urlInput = '';
 	let emailInput = '';
 	if(req.body.url_input) urlInput = req.body.url_input;
